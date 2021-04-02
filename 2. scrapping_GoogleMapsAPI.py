@@ -72,7 +72,7 @@ for direccion in direc:
             address2 += "+"
         else:
             address2 += char
-    key = '&key=AIzaSyCg1pmDVokNDhmB4o5vXk_HFyLF_tAou38'
+    key = 'here put your key'
     url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address2 + key
     response = requests.get(url)
     resp_json_payload = response.json()
